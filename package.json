@@ -1,0 +1,16 @@
+{
+    "name": "pinf-it-program-insight",
+    "version": "0.1.0",
+    "pm": "npm",
+    "publish": true,
+    "main": "./lib/program-insight.js",
+    "dependencies": {
+        "fs-extra": "~0.6.0"
+    },
+    "devDependencies": {
+        "mocha": "~1.9.0"
+    },
+    "scripts": {
+        "test": "make test"
+    }
+}
