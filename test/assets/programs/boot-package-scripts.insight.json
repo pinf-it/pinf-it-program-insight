@@ -1,0 +1,59 @@
+{
+    "dirpath": "programs/boot-package-scripts",
+    "id": "1f049e212142f173b21b0ee8aa0d8d099b3e583f-boot-package-scripts",
+    "raw": {
+        "program.json": {
+            "boot": {
+                "package": "../../packages/boot-package-scripts"
+            }
+        }
+    },
+    "normalized": {
+        "program.json": {
+            "boot": {
+                "package": "packages/boot-package-scripts"
+            }
+        }
+    },
+    "combined": {
+        "boot": {
+            "package": "packages/boot-package-scripts"
+        },
+        "packages": {
+            "packages/boot-package-scripts": {
+                "dirpath": "packages/boot-package-scripts",
+                "id": "695ed9597949a6e37cc6ed1eac6a17eac837c2f8-boot-package-scripts",
+                "raw": {
+                    "package.json": {
+                        "scripts": {
+                            "script1": "echo 'script1'",
+                            "script2": "echo 'script2'"
+                        }
+                    }
+                },
+                "normalized": {
+                    "package.json": {
+                        "exports": {
+                            "scripts": {
+                                "script1": "echo 'script1'",
+                                "script2": "echo 'script2'"
+                            }
+                        }
+                    }
+                },
+                "combined": {
+                    "exports": {
+                        "scripts": {
+                            "script1": "echo 'script1'",
+                            "script2": "echo 'script2'"
+                        }
+                    }
+                },
+                "warnings": [],
+                "errors": []
+            }
+        }
+    },
+    "warnings": [],
+    "errors": []
+}

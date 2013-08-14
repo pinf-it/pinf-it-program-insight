@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"script1": "echo 'script1'",
+		"script2": "echo 'script2'"
+	},
+	"dependencies": {
+		"required": {
+			"sub": "0.x"
+		}
+	}
+}

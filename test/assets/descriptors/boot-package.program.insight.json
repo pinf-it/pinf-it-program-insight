@@ -6,7 +6,7 @@
     },
     "normalized": {
         "boot": {
-            "package": "../packages/nodejs-1"
+            "package": "packages/nodejs-1"
         }
     },
     "warnings": [],

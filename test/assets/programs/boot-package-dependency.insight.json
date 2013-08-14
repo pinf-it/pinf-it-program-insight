@@ -1,0 +1,170 @@
+{
+    "dirpath": "programs/boot-package-dependency",
+    "id": "89ce64fb2d2988a92c64f5186d2ae462b15db55c-boot-package-dependency",
+    "raw": {
+        "program.json": {
+            "boot": {
+                "package": "../../packages/boot-package-dependency"
+            }
+        }
+    },
+    "normalized": {
+        "program.json": {
+            "boot": {
+                "package": "packages/boot-package-dependency"
+            }
+        }
+    },
+    "combined": {
+        "boot": {
+            "package": "packages/boot-package-dependency"
+        },
+        "packages": {
+            "packages/boot-package-dependency": {
+                "dirpath": "packages/boot-package-dependency",
+                "id": "d6857a2d4a72b9d782512c3d36d734163f4acc94-boot-package-dependency",
+                "raw": {
+                    "package.json": {
+                        "scripts": {
+                            "script1": "echo 'script1'",
+                            "script2": "echo 'script2'"
+                        },
+                        "dependencies": {
+                            "required": {
+                                "sub": "0.x"
+                            }
+                        }
+                    }
+                },
+                "normalized": {
+                    "package.json": {
+                        "dependencies": {
+                            "required": {
+                                "required": {
+                                    "sub": "0.x"
+                                }
+                            },
+                            "bundled": {
+                                "sub": "./node_modules/sub"
+                            }
+                        },
+                        "exports": {
+                            "scripts": {
+                                "script1": "echo 'script1'",
+                                "script2": "echo 'script2'"
+                            }
+                        },
+                        "pm": {
+                            "install": "npm"
+                        },
+                        "layout": {
+                            "directories": {
+                                "dependency": "./node_modules"
+                            }
+                        },
+                        "mappings": {
+                            "sub": "62ce1a3196a5648ff56a9582bd8363e8b9f068f6-sub"
+                        }
+                    }
+                },
+                "combined": {
+                    "dependencies": {
+                        "required": {
+                            "required": {
+                                "sub": "0.x"
+                            }
+                        },
+                        "bundled": {
+                            "sub": "./node_modules/sub"
+                        }
+                    },
+                    "exports": {
+                        "scripts": {
+                            "script1": "echo 'script1'",
+                            "script2": "echo 'script2'"
+                        }
+                    },
+                    "pm": {
+                        "install": "npm"
+                    },
+                    "layout": {
+                        "directories": {
+                            "dependency": "./node_modules"
+                        }
+                    },
+                    "mappings": {
+                        "sub": "62ce1a3196a5648ff56a9582bd8363e8b9f068f6-sub"
+                    }
+                },
+                "warnings": [],
+                "errors": []
+            },
+            "packages/boot-package-dependency/node_modules/sub": {
+                "dirpath": "packages/boot-package-dependency/node_modules/sub",
+                "id": "62ce1a3196a5648ff56a9582bd8363e8b9f068f6-sub",
+                "raw": {
+                    "package.json": {
+                        "on": {
+                            "pinf-start": "./pinf-start.js",
+                            "pinf-stop": "./pinf-start.js"
+                        },
+                        "scripts": {
+                            "script3": "echo 'script3'",
+                            "script4": "echo 'script4'"
+                        }
+                    }
+                },
+                "normalized": {
+                    "package.json": {
+                        "exports": {
+                            "scripts": {
+                                "script3": "echo 'script3'",
+                                "script4": "echo 'script4'"
+                            }
+                        },
+                        "events": {
+                            "listen": {
+                                "pinf-start": "./pinf-start.js",
+                                "pinf-stop": "./pinf-start.js"
+                            }
+                        },
+                        "pm": {
+                            "install": "npm"
+                        },
+                        "layout": {
+                            "directories": {
+                                "dependency": "./node_modules"
+                            }
+                        }
+                    }
+                },
+                "combined": {
+                    "exports": {
+                        "scripts": {
+                            "script3": "echo 'script3'",
+                            "script4": "echo 'script4'"
+                        }
+                    },
+                    "events": {
+                        "listen": {
+                            "pinf-start": "./pinf-start.js",
+                            "pinf-stop": "./pinf-start.js"
+                        }
+                    },
+                    "pm": {
+                        "install": "npm"
+                    },
+                    "layout": {
+                        "directories": {
+                            "dependency": "./node_modules"
+                        }
+                    }
+                },
+                "warnings": [],
+                "errors": []
+            }
+        }
+    },
+    "warnings": [],
+    "errors": []
+}
