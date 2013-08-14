@@ -1,0 +1,14 @@
+{
+    "raw": {
+        "boot": {
+            "package": "../packages/nodejs-1"
+        }
+    },
+    "normalized": {
+        "boot": {
+            "package": "../packages/nodejs-1"
+        }
+    },
+    "warnings": [],
+    "errors": []
+}

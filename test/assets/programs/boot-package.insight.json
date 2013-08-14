@@ -1,0 +1,25 @@
+{
+    "dirpath": "programs/boot-package",
+    "id": "3094bf72717338ff5e413e66bdb419eb77bd92e7-boot-package",
+    "raw": {
+        "program.json": {
+            "boot": {
+                "package": "../../packages/boot-package"
+            }
+        }
+    },
+    "normalized": {
+        "program.json": {
+            "boot": {
+                "package": "../../packages/boot-package"
+            }
+        }
+    },
+    "combined": {
+        "boot": {
+            "package": "../../packages/boot-package"
+        }
+    },
+    "warnings": [],
+    "errors": []
+}
