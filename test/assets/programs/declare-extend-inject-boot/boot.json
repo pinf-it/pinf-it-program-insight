@@ -1,0 +1,5 @@
+{
+	"boot": {
+		"package": ["<-", "./boot-package.json"]
+	}
+}

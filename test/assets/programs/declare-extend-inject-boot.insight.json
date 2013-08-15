@@ -1,6 +1,6 @@
 {
-    "dirpath": "programs/boot-package-dependency",
-    "id": "89ce64fb2d2988a92c64f5186d2ae462b15db55c-boot-package-dependency",
+    "dirpath": "programs/declare-extend-inject-boot",
+    "id": "0eedf5c3b9d80cbe3208326e3d14086ad0ff1b77-declare-extend-inject-boot",
     "raw": {
         "program.json": {
             "boot": {
