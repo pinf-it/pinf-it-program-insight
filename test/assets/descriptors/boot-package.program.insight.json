@@ -1,4 +1,10 @@
 {
+    "lookupPaths": [
+        "descriptors/boot-package.program.json"
+    ],
+    "descriptorPaths": [
+        "descriptors/boot-package.program.json"
+    ],
     "raw": {
         "boot": {
             "package": "../packages/nodejs-1"
