@@ -18,6 +18,9 @@
         }
     },
     "normalized": {
+        "program.production.json": {},
+        ".rt/program.rt.json": {},
+        ".program.json": {},
         "program.json": {
             "boot": {
                 "package": "packages/boot-package-dependency"
@@ -55,6 +58,24 @@
                     }
                 },
                 "normalized": {
+                    ".package.json": {
+                        "pm": {
+                            "install": "npm"
+                        },
+                        "layout": {
+                            "directories": {
+                                "dependency": "./node_modules"
+                            }
+                        },
+                        "dependencies": {
+                            "bundled": {
+                                "sub": "./node_modules/sub"
+                            }
+                        },
+                        "mappings": {
+                            "sub": "62ce1a3196a5648ff56a9582bd8363e8b9f068f6-sub"
+                        }
+                    },
                     "package.json": {
                         "dependencies": {
                             "required": {
@@ -140,6 +161,24 @@
                     }
                 },
                 "normalized": {
+                    ".package.json": {
+                        "pm": {
+                            "install": "npm"
+                        },
+                        "layout": {
+                            "directories": {
+                                "dependency": "./node_modules"
+                            }
+                        },
+                        "dependencies": {
+                            "bundled": {
+                                "sub": "."
+                            }
+                        },
+                        "mappings": {
+                            "sub": "62ce1a3196a5648ff56a9582bd8363e8b9f068f6-sub"
+                        }
+                    },
                     "package.json": {
                         "exports": {
                             "scripts": {
@@ -160,6 +199,14 @@
                             "directories": {
                                 "dependency": "./node_modules"
                             }
+                        },
+                        "dependencies": {
+                            "bundled": {
+                                "sub": "."
+                            }
+                        },
+                        "mappings": {
+                            "sub": "62ce1a3196a5648ff56a9582bd8363e8b9f068f6-sub"
                         }
                     }
                 },
@@ -183,6 +230,14 @@
                         "directories": {
                             "dependency": "./node_modules"
                         }
+                    },
+                    "dependencies": {
+                        "bundled": {
+                            "sub": "."
+                        }
+                    },
+                    "mappings": {
+                        "sub": "62ce1a3196a5648ff56a9582bd8363e8b9f068f6-sub"
                     }
                 },
                 "warnings": [],

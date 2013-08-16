@@ -18,6 +18,9 @@
         }
     },
     "normalized": {
+        "program.production.json": {},
+        ".rt/program.rt.json": {},
+        ".program.json": {},
         "program.json": {
             "boot": {
                 "package": "packages/boot-package-scripts"
@@ -48,6 +51,7 @@
                     }
                 },
                 "normalized": {
+                    ".package.json": {},
                     "package.json": {
                         "exports": {
                             "scripts": {
