@@ -103,7 +103,8 @@ describe('program-insight', function() {
 
 				waitfor(function(done) {
 					var options = {
-						rootPath: PATH.join(__dirname, "assets")
+						rootPath: PATH.join(__dirname, "assets"),
+						includePackages: true
 					};
 					return PROGRAM_INSIGHT.parse(PATH.join("programs", filename), options, function(err, descriptor) {
 						if (err) return done(err);
