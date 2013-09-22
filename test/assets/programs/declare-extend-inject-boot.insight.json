@@ -1,5 +1,6 @@
 {
     "dirpath": "programs/declare-extend-inject-boot",
+    "dirrealpath": "programs/declare-extend-inject-boot",
     "id": "0eedf5c3b9d80cbe3208326e3d14086ad0ff1b77-declare-extend-inject-boot",
     "lookupPaths": [
         "programs/declare-extend-inject-boot/boot.json",
@@ -36,6 +37,7 @@
         "packages": {
             "packages/boot-package-dependency": {
                 "dirpath": "packages/boot-package-dependency",
+                "dirrealpath": "packages/boot-package-dependency",
                 "id": "d6857a2d4a72b9d782512c3d36d734163f4acc94-boot-package-dependency",
                 "lookupPaths": [
                     "packages/boot-package-dependency/scripts.json",
@@ -142,6 +144,7 @@
             },
             "packages/boot-package-dependency/node_modules/sub": {
                 "dirpath": "packages/boot-package-dependency/node_modules/sub",
+                "dirrealpath": "packages/boot-package-dependency/node_modules/sub",
                 "id": "62ce1a3196a5648ff56a9582bd8363e8b9f068f6-sub",
                 "lookupPaths": [
                     "packages/boot-package-dependency/node_modules/sub/package.json",

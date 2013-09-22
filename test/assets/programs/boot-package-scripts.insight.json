@@ -1,5 +1,6 @@
 {
     "dirpath": "programs/boot-package-scripts",
+    "dirrealpath": "programs/boot-package-scripts",
     "id": "1f049e212142f173b21b0ee8aa0d8d099b3e583f-boot-package-scripts",
     "lookupPaths": [
         "programs/boot-package-scripts/program.json",
@@ -34,6 +35,7 @@
         "packages": {
             "packages/boot-package-scripts": {
                 "dirpath": "packages/boot-package-scripts",
+                "dirrealpath": "packages/boot-package-scripts",
                 "id": "695ed9597949a6e37cc6ed1eac6a17eac837c2f8-boot-package-scripts",
                 "lookupPaths": [
                     "packages/boot-package-scripts/package.json",

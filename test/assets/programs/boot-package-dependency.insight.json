@@ -1,5 +1,6 @@
 {
     "dirpath": "programs/boot-package-dependency",
+    "dirrealpath": "programs/boot-package-dependency",
     "id": "89ce64fb2d2988a92c64f5186d2ae462b15db55c-boot-package-dependency",
     "lookupPaths": [
         "programs/boot-package-dependency/program.json",
@@ -34,6 +35,7 @@
         "packages": {
             "packages/boot-package-dependency": {
                 "dirpath": "packages/boot-package-dependency",
+                "dirrealpath": "packages/boot-package-dependency",
                 "id": "d6857a2d4a72b9d782512c3d36d734163f4acc94-boot-package-dependency",
                 "lookupPaths": [
                     "packages/boot-package-dependency/scripts.json",
@@ -140,6 +142,7 @@
             },
             "packages/boot-package-dependency/node_modules/sub": {
                 "dirpath": "packages/boot-package-dependency/node_modules/sub",
+                "dirrealpath": "packages/boot-package-dependency/node_modules/sub",
                 "id": "62ce1a3196a5648ff56a9582bd8363e8b9f068f6-sub",
                 "lookupPaths": [
                     "packages/boot-package-dependency/node_modules/sub/package.json",
