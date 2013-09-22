@@ -169,14 +169,6 @@
                             "directories": {
                                 "dependency": "./node_modules"
                             }
-                        },
-                        "dependencies": {
-                            "bundled": {
-                                "sub": "."
-                            }
-                        },
-                        "mappings": {
-                            "sub": "62ce1a3196a5648ff56a9582bd8363e8b9f068f6-sub"
                         }
                     },
                     "package.json": {
@@ -199,14 +191,6 @@
                             "directories": {
                                 "dependency": "./node_modules"
                             }
-                        },
-                        "dependencies": {
-                            "bundled": {
-                                "sub": "."
-                            }
-                        },
-                        "mappings": {
-                            "sub": "62ce1a3196a5648ff56a9582bd8363e8b9f068f6-sub"
                         }
                     }
                 },
@@ -230,14 +214,6 @@
                         "directories": {
                             "dependency": "./node_modules"
                         }
-                    },
-                    "dependencies": {
-                        "bundled": {
-                            "sub": "."
-                        }
-                    },
-                    "mappings": {
-                        "sub": "62ce1a3196a5648ff56a9582bd8363e8b9f068f6-sub"
                     }
                 },
                 "warnings": [],
