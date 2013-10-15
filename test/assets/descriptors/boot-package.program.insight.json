@@ -7,11 +7,13 @@
     ],
     "raw": {
         "boot": {
+            "runtime": "../packages/nodejs-1/.rt/program.rt.json",
             "package": "../packages/nodejs-1"
         }
     },
     "normalized": {
         "boot": {
+            "runtime": "packages/nodejs-1/.rt/program.rt.json",
             "package": "packages/nodejs-1"
         }
     },
