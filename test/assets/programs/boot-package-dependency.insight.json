@@ -71,7 +71,9 @@
                         },
                         "dependencies": {
                             "bundled": {
-                                "sub": "./node_modules/sub"
+                                "sub": {
+                                    "location": "./node_modules/sub"
+                                }
                             }
                         },
                         "mappings": {
@@ -86,7 +88,9 @@
                                 }
                             },
                             "bundled": {
-                                "sub": "./node_modules/sub"
+                                "sub": {
+                                    "location": "./node_modules/sub"
+                                }
                             }
                         },
                         "exports": {
@@ -116,7 +120,9 @@
                             }
                         },
                         "bundled": {
-                            "sub": "./node_modules/sub"
+                            "sub": {
+                                "location": "./node_modules/sub"
+                            }
                         }
                     },
                     "exports": {
