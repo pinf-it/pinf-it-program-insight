@@ -140,6 +140,7 @@ describe('program-insight', function() {
 					});
 				});
 			});
+			return waitfor();
 		});
 	});
 

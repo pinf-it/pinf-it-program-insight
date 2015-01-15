@@ -1,5 +1,6 @@
 {
 	"required": {
-		"sub": "0.x"
+		"sub": "0.x",
+		"dep": "./node_nodules/sub"
 	}
 }

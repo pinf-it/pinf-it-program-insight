@@ -54,7 +54,12 @@
                         },
                         "dependencies": {
                             "required": {
-                                "sub": "0.x"
+                                "sub": {
+                                    "selector": "0.x"
+                                },
+                                "dep": {
+                                    "location": "./node_nodules/sub"
+                                }
                             }
                         }
                     }
@@ -83,8 +88,11 @@
                     "package.json": {
                         "dependencies": {
                             "required": {
-                                "required": {
-                                    "sub": "0.x"
+                                "sub": {
+                                    "selector": "0.x"
+                                },
+                                "dep": {
+                                    "location": "./node_nodules/sub"
                                 }
                             },
                             "bundled": {
@@ -115,8 +123,11 @@
                 "combined": {
                     "dependencies": {
                         "required": {
-                            "required": {
-                                "sub": "0.x"
+                            "sub": {
+                                "selector": "0.x"
+                            },
+                            "dep": {
+                                "location": "./node_nodules/sub"
                             }
                         },
                         "bundled": {
